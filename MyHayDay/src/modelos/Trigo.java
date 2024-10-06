@@ -52,8 +52,6 @@ public class Trigo {
     // --------------------------------------- //
     
     //Metodos Set
-    public void setAll(){
-    }
     public void setIcono(String icono){
         this.icono = icono;
     }
@@ -70,22 +68,19 @@ public class Trigo {
         this.riego = riego;
     }
     //Metodos Get
-    public void getAll(){
-    }
-    public String getIcono(String icono){
+    public String getIcono(){
         return icono;
     }
-    public int getDuracionProduccion(int duracionProduccion){
+    public int getDuracionProduccion(){
         return duracionProduccion;
     }
-    public int getExperienciaRecolecta(int experienciaRecolecta){
+    public int getExperienciaRecolecta(){
         return experienciaRecolecta;
     }
-    public int getPrecioVenta(int precioVenta){
+    public int getPrecioVenta(){
         return precioVenta;
     }
-    public int getRiego(int riego){
+    public int getRiego(){
         return riego;
     }
-    
 }
